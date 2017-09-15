@@ -1,0 +1,4 @@
+com.github.frapontillo.pulse.crowd.social.facebook.extraction.FacebookExtractor
+com.github.frapontillo.pulse.crowd.social.facebook.profile.FacebookProfiler
+com.github.frapontillo.pulse.crowd.social.facebook.profile.FacebookProfileGrapher
+com.github.frapontillo.pulse.crowd.social.facebook.extraction.FacebookReplyExtractor
