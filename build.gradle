@@ -15,7 +15,11 @@ repositories {
     }
 }
 
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
 dependencies {
-    compile 'com.github.swapUniba:crowd-pulse-social:0.0.1'
+    compile 'com.github.swapUniba:crowd-pulse-social:master-SNAPSHOT'
     compile group: 'org.facebook4j', name: 'facebook4j-core', version: '2.2.2'
 }
